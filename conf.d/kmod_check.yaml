@@ -1,0 +1,20 @@
+init_config:
+
+instances:
+  - name: 'cryptd'
+    # The (optional) module_size parameter will create a metric 'kmodload.size',
+    # tagged with the module, reporting the module size.
+    # defaults to true.
+    #
+    # module_size: true
+
+    # The default is 0
+    # which means it’s collected at the same interval as the rest of the integrations on that Agent.
+    #
+    # min_collection_interval: 0
+
+  - name: 'ipv6'
+
+  - name: 'xfs'
+
+  - name: 'ext4'
